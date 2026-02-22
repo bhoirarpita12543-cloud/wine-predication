@@ -9,8 +9,9 @@ Original file is located at
 
 import streamlit as st
 import joblib
+import pandas as pd
 
-model = joblib.load("dtc_model.pkl")
+model = joblib.load("dt_model.pkl")
 
 st.title("wine type predication !")
 
